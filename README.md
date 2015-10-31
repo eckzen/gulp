@@ -10,7 +10,7 @@ Go to that folder
 
 Create a package JSON
 
-    npm init
+    npm init            #this will create a package json
 
 For first time install Gulp
 
@@ -27,4 +27,11 @@ Install other packages
     npm install --save-dev <package> <package> <package>
 
 Create a gulpfile.js file
+
 Create a .gitignore file
+
+Note:
+
+    The container option has been deprecated. Simultanious tasks work automatically now!
+    
+    This will become an error in gulp-ruby-sass 2.0
